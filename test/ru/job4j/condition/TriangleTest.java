@@ -15,6 +15,7 @@ public class TriangleTest {
         boolean result = Triangle.exist(ab, ac, bc);
         Assert.assertTrue(result);
     }
+
     @Test
     public void thenExist() {
         double ab = 2.0;

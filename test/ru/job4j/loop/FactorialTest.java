@@ -14,6 +14,7 @@ public class FactorialTest {
         Assert.assertEquals(expected, result);
 
     }
+
     @Test
     public void whenSumEvenNumbersFromTwoToFourThenSix() {
         int result = Factorial.calc(0);

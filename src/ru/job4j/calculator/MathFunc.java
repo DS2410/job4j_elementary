@@ -5,6 +5,7 @@ public class MathFunc {
         int result = x * x + 1;
         return result;
     }
+
     public static void main(String[] args) {
         int result = MathFunc.func1(100);
         System.out.println(result);
