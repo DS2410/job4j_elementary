@@ -14,6 +14,7 @@ public class SquareTest {
         int[] expected = new int[] {0, 1, 4};
         Assert.assertArrayEquals(expected, result);
     }
+
     @Test
     public void calculatefive() {
         int bound = 5;
