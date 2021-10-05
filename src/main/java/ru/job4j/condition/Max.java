@@ -5,9 +5,15 @@ public class Max {
         return left > right ? left : right;
     }
 
-    public static void main(String[] args) {
-        int meaning = Max.max(7, 5);
-        System.out.println(meaning);
+    public static int max(int first, int second, int third) {
+        int rsl = max(first, max(second, third));
+        return rsl;
 
     }
+
+    public static int max(int first, int second, int third, int four) {
+        int rsl = max(max(first, second), max(third, four));
+        return rsl;
+    }
+
 }
